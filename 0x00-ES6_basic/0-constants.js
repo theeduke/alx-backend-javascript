@@ -1,6 +1,6 @@
-export function taskFirst(task){
-	this.task = const task
-	task = 'I prefer const when I can.';
+export function taskFirst(){
+	const self = this;
+	this.task = 'I prefer const when I can.';
 	return task;
 }
 
